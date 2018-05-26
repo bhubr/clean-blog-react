@@ -4,9 +4,9 @@ class Post extends React.Component {
   render () {
     return (
       <div>
-        <h2>Développement avec React</h2>
+        <h2>{ this.props.title }</h2>
         <div>
-          <p>React est devenu un incontournable du développement front-end.</p>
+          <p>{ this.props.content }</p>
         </div>
       </div>
     )
