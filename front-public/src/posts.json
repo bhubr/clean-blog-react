@@ -1,0 +1,6 @@
+[
+  { "title": "React rocks", "content": "React was created by Facebook engineers to address complex UI synchronization problems." },
+  { "title": "Angular is nice too", "content": "Angular was created by Google. Since v2 it's no more compatible with former AngularJS" },
+  { "title": "Vue.js is the new kid on the block", "content": "Blah blah" },
+  { "title": "Backbone is old", "content": "Yeah, it's somewhat outdated by now" }
+]
