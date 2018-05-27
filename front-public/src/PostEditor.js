@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 class PostEditor extends React.Component {
   constructor (props) {
@@ -33,6 +34,10 @@ class PostEditor extends React.Component {
       </form>
     )
   }
+}
+
+PostEditor.propTypes = {
+  addPost: PropTypes.func
 }
 
 export default PostEditor
