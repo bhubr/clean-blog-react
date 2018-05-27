@@ -1,6 +1,9 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'
 import PostListWithEditor from './PostListWithEditor'
+import Navigation from './Navigation'
+import Header from './Header'
+import Footer from './Footer'
 import About from './About'
 import SinglePost from './SinglePost'
 import Error404 from './Error404'
@@ -8,19 +11,8 @@ import Error404 from './Error404'
 const App = () => (
   <Router>
     <div>
-      <ul>
-        <li>
-          <Link to="/">Post list with editor</Link>
-        </li>
-        <li>
-          <Link to="/about">About</Link>
-        </li>
-        <li>
-          <Link to="/1">Post #1</Link>
-        </li>
-      </ul>
-
-      <hr />
+      <Navigation />
+      <Header />
 
       <Switch>
         <Route exact path="/" component={PostListWithEditor} />
@@ -28,6 +20,8 @@ const App = () => (
         <Route path="/:id" component={SinglePost} />
         <Route component={Error404} />
       </Switch>
+
+      <Footer />
     </div>
   </Router>
 )
