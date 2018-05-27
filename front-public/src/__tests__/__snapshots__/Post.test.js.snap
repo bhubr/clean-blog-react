@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Check that output is correct 1`] = `
+<div>
+  <h2>
+    Test post
+  </h2>
+  <div>
+    <p>
+      Content for test post
+    </p>
+  </div>
+</div>
+`;
