@@ -4,7 +4,7 @@ import PostEditor from './PostEditor'
 
 import posts from './posts'
 
-class App extends Component {
+class PostListWithEditor extends Component {
   constructor (props) {
     super(props)
     this.state = {
@@ -34,4 +34,4 @@ class App extends Component {
   }
 }
 
-export default App
+export default PostListWithEditor
