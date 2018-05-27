@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Check that output is correct 1`] = `
+<div>
+  <div>
+    <h2>
+      Test post #1
+    </h2>
+    <div>
+      <p>
+        Some content
+      </p>
+    </div>
+  </div>
+  <div>
+    <h2>
+      Test post #2
+    </h2>
+    <div>
+      <p>
+        Some more content
+      </p>
+    </div>
+  </div>
+</div>
+`;
