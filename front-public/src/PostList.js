@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import Post from './Post'
 
 class PostList extends React.Component {
@@ -11,6 +12,10 @@ class PostList extends React.Component {
       </div>
     )
   }
+}
+
+PostList.propTypes = {
+  posts: PropTypes.array
 }
 
 export default PostList
