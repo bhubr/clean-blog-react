@@ -28,7 +28,7 @@ class PostListWithEditor extends Component {
     return (
       <div className="App">
         <PostList posts={this.state.posts} />
-        <PostEditor addPost={ this.addPost } />
+        {/* <PostEditor addPost={ this.addPost } /> */}
       </div>
     )
   }
