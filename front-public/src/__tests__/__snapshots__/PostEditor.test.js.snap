@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Check that output is correct 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <input
+    name="title"
+    onChange={[Function]}
+    placeholder="Post title"
+    value=""
+  />
+  <br />
+  <textarea
+    name="content"
+    onChange={[Function]}
+    placeholder="Post content"
+    value=""
+  />
+  <br />
+  <button
+    type="submit"
+  >
+    Publish
+  </button>
+</form>
+`;
+
+exports[`Check that output is correct 2`] = `
+<form
+  onSubmit={[Function]}
+>
+  <input
+    name="title"
+    onChange={[Function]}
+    placeholder="Post title"
+    value="a"
+  />
+  <br />
+  <textarea
+    name="content"
+    onChange={[Function]}
+    placeholder="Post content"
+    value=""
+  />
+  <br />
+  <button
+    type="submit"
+  >
+    Publish
+  </button>
+</form>
+`;
+
+exports[`Check that output is correct 3`] = `
+<form
+  onSubmit={[Function]}
+>
+  <input
+    name="title"
+    onChange={[Function]}
+    placeholder="Post title"
+    value="a"
+  />
+  <br />
+  <textarea
+    name="content"
+    onChange={[Function]}
+    placeholder="Post content"
+    value="z"
+  />
+  <br />
+  <button
+    type="submit"
+  >
+    Publish
+  </button>
+</form>
+`;
+
+exports[`Check that output is correct 4`] = `
+<form
+  onSubmit={[Function]}
+>
+  <input
+    name="title"
+    onChange={[Function]}
+    placeholder="Post title"
+    value=""
+  />
+  <br />
+  <textarea
+    name="content"
+    onChange={[Function]}
+    placeholder="Post content"
+    value=""
+  />
+  <br />
+  <button
+    type="submit"
+  >
+    Publish
+  </button>
+</form>
+`;
