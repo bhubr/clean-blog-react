@@ -13,7 +13,7 @@ const withContainer = (Component) => props =>
   <div className="container">
     <div className="row">
       <div className="col-lg-8 col-md-10 mx-auto">
-      <Component {...props} />
+        <Component {...props} />
       </div>
     </div>
   </div>
@@ -29,7 +29,7 @@ const App = () => (
         <Route path="/about" component={withContainer(About)} />
         <Route path="/contact" component={withContainer(Contact)} />
         <Route path="/:id" component={withContainer(SinglePost)} />
-        <Route component={Error404} />
+        <Route component={withContainer(Error404)} />
       </Switch>
 
       <hr />
